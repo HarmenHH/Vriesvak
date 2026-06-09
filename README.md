@@ -1,2 +1,2 @@
 # Vriesvak
-Je digitale vriesvak-label
+Jouw digitale vriesvak-label
