@@ -489,7 +489,7 @@ export default function FreezerApp() {
                     </select>
                   </div>
 
-                  <div className="grid grid-cols-2 gap-3">
+                  <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
                     <div>
                       <label htmlFor="weight" className="text-xs font-medium text-slate-600 mb-1 block">Totaalgewicht (g)</label>
                       <input id="weight" type="number" value={formData.totalWeight} onChange={e => setFormData(f => ({ ...f, totalWeight: e.target.value }))} placeholder="1000" className="w-full px-3 py-2.5 rounded-xl border border-slate-200 text-sm focus:outline-none focus:ring-2 focus:ring-blue-300" />
